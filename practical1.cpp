@@ -14,9 +14,9 @@ int multiply(int x, int y)
   return x * y;
 }
 
-double calculateCost(int price)
+float calculateCost(int price)
 {
-  double tax { 0.005 };
+  float tax { 0.005 };
   // int cost{};
 
   return price * (1 + tax / 100);
