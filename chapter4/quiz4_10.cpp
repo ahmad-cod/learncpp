@@ -20,15 +20,17 @@ int getNumber()
 
 bool isPrime(int x)
 {
-  if (x == 2)
-    return true;
-  else if (x == 3)
-    return true;
-  else if (x == 5)
-    return true;
-  else if (x == 7)
-    return true;
-  return false;
+  // if (x == 2)
+  //   return true;
+  // else if (x == 3)
+  //   return true;
+  // else if (x == 5)
+  //   return true;
+  // else if (x == 7)
+  //   return true;
+  // return false;
+
+  return x == 2 || x == 3 || x == 5 || x == 7;
 }
 
 void printAnswer(bool value)
@@ -43,9 +45,10 @@ int main()
 {
   int x{ getNumber() };
 
-  if ( (x > 10) || (x < 0) )
+  if ( (x > 10) || (x < 0) ) {
     std::cout << "Number must be between 0 - 10 \n";
     x = getNumber();
+  }
     
   printAnswer(isPrime(x));
   return 0;
