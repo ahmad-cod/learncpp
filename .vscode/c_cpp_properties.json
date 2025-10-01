@@ -3,17 +3,17 @@
         {
             "name": "Linux",
             "includePath": [
-                "/usr/include/c++/11",
-                "/usr/include/x86_64-linux-gnu/c++/11",
-                "/usr/include/c++/11/backward",
+                "/usr/include/c++/14",
+                "/usr/include/x86_64-linux-gnu/c++/14",
+                "/usr/include/c++/14/backward",
                 "/usr/local/include",
-                "/usr/lib/gcc/x86_64-linux-gnu/11/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/14/include",
                 "/usr/include/x86_64-linux-gnu",
                 "/usr/include",
                 "${workspaceFolder}/**"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/clang",
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c17",
             "cppStandard": "c++14"
         }
